@@ -1,0 +1,46 @@
+.popular .box {
+  background-color: var(--surface);
+  /* color: var(--on-surface); */
+  display: flex;
+  /* #18  copy*/
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+  position: relative;
+  margin: 15px 15px 15px 0;
+  border-radius: 10px;
+  /*box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;*/
+  transition: all 0.5s ease-in-out;
+  box-shadow: var(--shadow-2);
+}
+.items {
+  transition: all 0.3s ease-in-out;
+}
+
+.items:hover {
+  /* background-color: white; */
+  transform: scale(1.02);
+}
+
+.popular .images {
+  position: relative;
+  height: 150px;
+}
+.popular img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
+}
+.popular .text h1 {
+  padding: 20px 0 0 20px;
+  margin: 0;
+}
+.popular .date {
+  margin-top: 15px;
+  padding: 0 0 0 20px;
+}
+
+.popular .comment {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px 0 0 20px;
+  margin-top: 5px;
+}
